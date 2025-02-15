@@ -1,7 +1,3 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
-
 set -g theme_powerline_fonts yes
 set -g theme_nerd_fonts yes
 set -g theme_display_git_stashed_verbose yes
@@ -14,6 +10,7 @@ set -g theme_color_scheme zenburn
 
 fish_add_path /opt/homebrew/bin
 fish_add_path /usr/local/bin
+fish_add_path $HOME/.pub-cache/bin
 
 alias vim nvim
 alias g git

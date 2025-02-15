@@ -1,0 +1,39 @@
+{
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.enableStickyScroll": true,
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "explorer.compactFolders": false,
+    "window.titleBarStyle": "custom",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    "editor.lightbulb.enabled": "off",
+    "editor.fontSize": 13,
+    "editor.lineNumbers": "relative",
+    "editor.showFoldingControls": "never",
+    "editor.minimap.enabled": false,
+    "update.mode": "none",
+    "editor.stickyScroll.enabled": false,
+    "custom-ui-style.stylesheet": {
+        ".monaco-workbench .part.titlebar>.titlebar-container": "display: none",
+        ".quick-input-widget": "top: 25vh !important",
+        ".quick-input-widget .scrollbar": "display: none",
+        ".monaco-editor .find-widget.visible": "box-shadow: none; top: 20px !important; border: 1px solid rgba(255, 255, 255, .5); border-radius: 4px;",
+        ".monaco-editor .find-widget .monaco-sash": "display: none",
+        ".monaco-editor .scroll-decoration, .monaco-scrollable-element .monaco-tree-sticky-container .monaco-tree-sticky-container-shadow": "display: none",
+        ".monaco-scrollable-element>.visible, .decorationsOverviewRuler": "display: none !important",
+        ".editor-group-watermark>.letterpress": "display: none !important"
+    },
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000"
+    },
+    "terminal.integrated.gpuAcceleration": "off",
+    "vim.leader": "<space>",
+    "workbench.activityBar.location": "hidden"
+}

@@ -16,7 +16,3 @@ keymap.set("n", "<C-a>", "gg<S-v>G")
 keymap.set("n", "<tab>", ":tabnext<Return>", opts)
 keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
 keymap.set("n", "<leader>x", ":bdelete!<Return>", opts)
-
-keymap.set("i", "<C-k>", "<Esc>", opts)
-keymap.set("n", "<C-k>", "<Esc>", opts)
-keymap.set("v", "<C-k>", "<Esc>", opts)
