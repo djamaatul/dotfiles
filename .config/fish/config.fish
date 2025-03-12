@@ -18,9 +18,10 @@ alias g git
 alias .. "cd .."
 alias ... "cd ../.."
 
-set -g oracle_home /opt/homebrew/cellar/instantclient-basic/19.8.0.0.0dbru
 set -g ANDROID_HOME ~/Library/Android/sdk
 set -g PATH $PATH:$ANDROID_HOME/emulator
+
+set -g ORACLE_HOME /opt/homebrew/cellar/instantclient-basic/19.8.0.0.0dbru
 set -g CI_HOME $ORACLE_HOME
 set -g CI_LIB_DIR $OCI_HOME
 set -g CI_INCLUDE_DIR $OCI_HOME/sdk/include
@@ -31,6 +32,6 @@ set -g YLD_LIBRARY_PATH $OCI_LIB_DIR
 set -g BUN_INSTALL "$HOME/.bun"
 set -g path "$bun_install/bin:$path"
 
-function fish_greeting
-    cowsay 'Hello World'
-end
+# function fish_greeting
+#     cowsay 'Hello World'
+# end

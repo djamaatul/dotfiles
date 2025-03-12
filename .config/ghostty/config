@@ -1,0 +1,13 @@
+background-blur-radius = 25
+background-opacity = .90
+
+keybind = alt+left=unbind
+keybind = alt+right=unbind
+macos-option-as-alt = true
+
+command = /opt/homebrew/bin/fish
+auto-update = off
+
+macos-titlebar-style = hidden
+window-padding-x = 20
+window-padding-y = 20

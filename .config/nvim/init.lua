@@ -1,1 +1,1 @@
-require("rizz")
+require("core")

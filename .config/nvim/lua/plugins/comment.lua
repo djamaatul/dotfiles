@@ -1,8 +1,8 @@
 return {
 	"numToStr/Comment.nvim",
 	opts = {
-		toggler = { line = "<leader>/", block = "gcb" },
-		opleader = { line = "<leader>/", block = "gb" },
+		toggler = { line = "<leader>/" },
+		opleader = { line = "<leader>/" },
 	},
 	lazy = false,
 }
