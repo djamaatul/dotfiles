@@ -1,0 +1,95 @@
+{
+  "agent": {
+    "model_parameters": [],
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-7-sonnet-latest"
+    },
+    "version": "2"
+  },
+  "icon_theme": "Material Icon Theme",
+  "vim_mode": true,
+  "ui_font_size": 14,
+  "buffer_font_size": 14,
+  "format_on_save": "off",
+  "relative_line_numbers": true,
+  "cursor_blink": false,
+  "ensure_final_newline_on_save": false,
+  "show_edit_predictions": false,
+  "title_bar": {
+    "show_onboarding_banner": false,
+    "show_user_picture": false,
+    "show_branch_icon": true
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "agent_review": false,
+    "quick_actions": false,
+    "selections_menu": false
+  },
+  "jsx_tag_auto_close": {
+    "enabled": true
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "indent_guides": {
+    "coloring": "indent_aware"
+  },
+  "tab_bar": {
+    "show_tab_bar_buttons": false,
+    "show_nav_history_buttons": false
+  },
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark Pro"
+  },
+  "experimental.theme_overrides": {
+    "background.appearance": "blurred",
+    "background": "#000000bb",
+    "editor.background": "#00000000",
+    "editor.gutter.background": "#00000000",
+    "editor.active_line.background": "#fefefe20",
+    "editor.line_number": "#ffffff80",
+    "terminal.background": "#00000000",
+    "toolbar.background": "#00000000",
+    "status_bar.background": "#000000bb",
+    "title_bar.background": "#000000bb",
+    "scrollbar.track.border": "#00000000",
+    "scrollbar.thumb.border": "#00000000",
+    "scrollbar.thumb.background": "#f0f0f010",
+    "scrollbar.track.background": "#00000000",
+    "tab_bar.background": "#00000000",
+    "tab.active_background": "#00000020",
+    "tab.inactive_background": "#ffffff10",
+    "border": "#ffffff60",
+    "border.variant": "#00000000",
+    "editor.invisible": "#ffffff50",
+    "panel.background": "#00000000",
+    "panel.indent_guide": "#ffffff20",
+    "panel.indent_guide_active": "#ffffff50",
+    "accents": ["#ffffffff", "#fefefe20"]
+  },
+  "lsp": {
+    "gopls": {
+      "initialization_options": {}
+    },
+    "jdtls": {
+      "initialization_options": {
+        "settings": {
+          "java": {
+            "home": "/opt/homebrew/opt/openjdk/bin/java"
+          }
+        }
+      }
+    },
+    "tailwindcss-language-server": {
+      "settings": {
+        "tailwindCSS": {
+          "emmetCompletions": true
+        }
+      }
+    }
+  }
+}

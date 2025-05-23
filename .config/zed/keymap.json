@@ -1,0 +1,75 @@
+[
+  {
+    "context": "(Editor && vim_mode != insert) || EmptyPane",
+    "bindings": {
+      "space f f": "file_finder::Toggle",
+      "space s g": "workspace::NewSearch"
+    }
+  },
+  {
+    "context": "EmptyPane",
+    "bindings": {
+      "ctrl-/": "workspace::ToggleBottomDock",
+      "space e": "project_panel::ToggleFocus",
+      "space f b": "tab_switcher::ToggleAll"
+    }
+  },
+  {
+    "context": "Pane && not_editing",
+    "bindings": {
+      "space q": "pane::CloseActiveItem"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-k": "terminal_panel::ToggleFocus",
+      "ctrl-h": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "h": "project_panel::OpenPermanent",
+      "l": "project_panel::OpenPermanent",
+      "r": "project_panel::Rename",
+      "d": "project_panel::Delete",
+      "a": "project_panel::NewFile",
+      "A": "project_panel::NewDirectory",
+      "x": "project_panel::Cut",
+      "y": "project_panel::Copy",
+      "p": "project_panel::Paste",
+      "J": "menu::SelectNext",
+      "K": "menu::SelectPrevious",
+      "ctrl-h": "project_panel::ToggleFocus",
+      "ctrl-j": "terminal_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "vim_mode == normal",
+    "bindings": {
+      "space q": "pane::CloseActiveItem",
+      "space e": "project_panel::ToggleFocus",
+      "space /": "editor::ToggleComments",
+      "shift-h": "pane::ActivatePreviousItem",
+      "shift-l": "pane::ActivateNextItem",
+      "ctrl-h": "project_panel::ToggleFocus",
+      "ctrl-l": "project_panel::ToggleFocus",
+      "ctrl-j": "terminal_panel::ToggleFocus",
+      "space c f": "editor::Format",
+      "space s b": "outline::Toggle",
+      "space c a": "editor::ToggleCodeActions",
+      "d d": ["workspace::SendKeystrokes", "V \" _ d"], "d": ["workspace::SendKeystrokes", "\" _ d"], "x x": "vim::VisualDeleteLine", ">": ["workspace::SendKeystrokes", "V >"], "<": ["workspace::SendKeystrokes", "V <"]
+    }
+  },
+  {
+    "context": "vim_mode == visual",
+    "bindings": {
+      "space c f": "editor::FormatSelections",
+      "space /": "editor::ToggleComments",
+      "d": ["workspace::SendKeystrokes", "\" _ d"],
+      ">": ["workspace::SendKeystrokes", "> g v"],
+      "<": ["workspace::SendKeystrokes", "< g v"]
+    }
+  }
+]
