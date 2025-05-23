@@ -1,12 +1,4 @@
 {
-  "agent": {
-    "model_parameters": [],
-    "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-7-sonnet-latest"
-    },
-    "version": "2"
-  },
   "icon_theme": "Material Icon Theme",
   "vim_mode": true,
   "ui_font_size": 14,
@@ -47,15 +39,15 @@
   },
   "experimental.theme_overrides": {
     "background.appearance": "blurred",
-    "background": "#000000bb",
+    "status_bar.background": "#282c349f",
+    "title_bar.background": "#282c349f",
+    "background": "#282c349f",
     "editor.background": "#00000000",
     "editor.gutter.background": "#00000000",
     "editor.active_line.background": "#fefefe20",
     "editor.line_number": "#ffffff80",
     "terminal.background": "#00000000",
     "toolbar.background": "#00000000",
-    "status_bar.background": "#000000bb",
-    "title_bar.background": "#000000bb",
     "scrollbar.track.border": "#00000000",
     "scrollbar.thumb.border": "#00000000",
     "scrollbar.thumb.background": "#f0f0f010",
