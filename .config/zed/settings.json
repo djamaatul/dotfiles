@@ -8,6 +8,11 @@
   "cursor_blink": false,
   "ensure_final_newline_on_save": false,
   "show_edit_predictions": false,
+  "terminal": {
+    "shell": {
+      "program": "/opt/homebrew/bin/fish"
+    }
+  },
   "title_bar": {
     "show_onboarding_banner": false,
     "show_user_picture": false,
@@ -39,9 +44,9 @@
   },
   "experimental.theme_overrides": {
     "background.appearance": "blurred",
-    "status_bar.background": "#282c349f",
-    "title_bar.background": "#282c349f",
-    "background": "#282c349f",
+    "status_bar.background": "#282c34cf",
+    "title_bar.background": "#282c34cf",
+    "background": "#282c34cf",
     "editor.background": "#00000000",
     "editor.gutter.background": "#00000000",
     "editor.active_line.background": "#fefefe20",
