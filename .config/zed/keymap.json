@@ -1,6 +1,6 @@
 [
   {
-    "context": "(Editor && vim_mode != insert) || EmptyPane",
+    "context": "(Editor && vim_mode != insert && vim_mode != waiting) || EmptyPane",
     "bindings": {
       "space f f": "file_finder::Toggle",
       "space s g": "workspace::NewSearch"
@@ -59,7 +59,11 @@
       "space c f": "editor::Format",
       "space s b": "outline::Toggle",
       "space c a": "editor::ToggleCodeActions",
-      "d d": ["workspace::SendKeystrokes", "V \" _ d"], "d": ["workspace::SendKeystrokes", "\" _ d"], "x x": "vim::VisualDeleteLine", ">": ["workspace::SendKeystrokes", "V >"], "<": ["workspace::SendKeystrokes", "V <"]
+      "d d": ["workspace::SendKeystrokes", "V \" _ d"],
+      "d": ["workspace::SendKeystrokes", "\" _ d"],
+      "x x": "vim::VisualDeleteLine",
+      ">": ["workspace::SendKeystrokes", "V >"],
+      "<": ["workspace::SendKeystrokes", "V <"]
     }
   },
   {
