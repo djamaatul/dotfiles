@@ -1,0 +1,26 @@
+* {
+    foreground:                  rgba ( 196, 203, 212, 100 % );
+    normal-foreground:           @foreground;
+    alternate-normal-background: transparent;
+    background:                  transparent;
+    alternate-normal-foreground: @foreground;
+    selected-normal-background:  rgba ( 0, 0, 0, 90 % );
+    border-color:                transparent;
+    separatorcolor:              transparent;
+}
+
+window {
+ background-color: rgba ( 0, 0, 0, 80 % );
+}
+
+mainbox {
+   padding: 0px;
+}
+
+inputbar {
+   padding: 10px;
+}
+
+element {
+   padding: 10px;
+}

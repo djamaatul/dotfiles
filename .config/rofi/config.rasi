@@ -1,0 +1,7 @@
+configuration {
+    show-icons:				true;
+    display-drun:			"Search";
+}
+
+@import "~/.config/rofi/dark_transparent.rasi"
+
